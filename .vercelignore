@@ -1,0 +1,35 @@
+# Large training datasets
+training.1600000.processed.noemoticon.csv
+testdata.manual.2009.06.14.csv
+train.csv
+test.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Training artifacts that aren't needed for deployment
+*.pkl
+app.py
+predict_sentiment.py
+train_svm_model.py
+test_system.py
+generate_visualizations.py
+
+# Development files
+.env.example
+BRAND_CHANGE_SUMMARY.md
+FRONTEND_UPDATES.md
+README.md
+
+# Node modules (will be installed during build)
+node_modules/
+
+# Build artifacts
+dist/
+.vercel/

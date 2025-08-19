@@ -1,0 +1,26 @@
+{
+  "overall_accuracy": 0.6994906621392191,
+  "total_samples": 3534,
+  "sentiment_distribution": {
+    "neutral": 1430,
+    "positive": 1103,
+    "negative": 1001
+  },
+  "performance_metrics": {
+    "precision": {
+      "negative": 0.721830985915493,
+      "neutral": 0.6339181286549708,
+      "positive": 0.7952674897119342
+    },
+    "recall": {
+      "negative": 0.6143856143856143,
+      "neutral": 0.7580419580419581,
+      "positive": 0.700815956482321
+    },
+    "f1_score": {
+      "negative": 0.6637884511602806,
+      "neutral": 0.6904458598726114,
+      "positive": 0.7450602409638554
+    }
+  }
+}
